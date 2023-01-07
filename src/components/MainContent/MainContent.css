@@ -3,10 +3,11 @@
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  align-items: center;
   border: solid black 1px;
   border-end-start-radius: 50px;
   border-end-end-radius: 50px;
-  height: 50vh;
+  height: 400px;
   background-size: 100% 310%;
 }
 .temp{
@@ -17,4 +18,10 @@
 .location{
   font-size: 20px;
   text-shadow: 2px 2px 2px #5b5b5b;
+}
+
+@media screen and (max-width: 425px){
+  .mainContainer{
+    width: 100vw;
+  }
 }

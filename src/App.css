@@ -1,4 +1,5 @@
 #root {
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -7,4 +8,12 @@
   display: flex; 
   flex-flow: row wrap;
   width: 700px;
+}
+@media screen and (max-width: 768px){
+.detailContainer{
+  margin: auto;
+  width: 90vw;
+  justify-content: center;
+  align-items: center;
+}
 }
