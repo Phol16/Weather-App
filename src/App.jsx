@@ -23,7 +23,7 @@ function App() {
     setUnits(response.properties.meta.units);
   };
   return (
-    <div>
+    <div className='backgroundColor'>
       <MainContent detail={details.air_temperature} />
       <section className="detailContainer">
         <AirPressure className="details" detail={details.air_pressure_at_sea_level} unit={units.air_pressure_at_sea_level} />
