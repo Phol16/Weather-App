@@ -1,0 +1,10 @@
+.container{
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: var(--secondaryColor);
+  text-shadow: 1px 1px 4px black;
+  z-index: 10;
+}

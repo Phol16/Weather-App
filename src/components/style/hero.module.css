@@ -1,0 +1,36 @@
+.container{
+  height: 100vh;
+  color: var(--secondaryColor);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 0 0;
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+  gap: 10px;
+}
+.home{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.home:hover{
+  transition: transform 0.2s;
+  transform: scale(1.2);
+}
+.button{
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  transition:transform 0.2s;
+}
+.button:hover{
+  transition:transform 0.2s;
+  transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--primaryColor);
+  padding: 1rem 10px;
+  border-radius: 10px;
+  max-width: 310px;
+}
+.main{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.detailsContainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+.button{
+  padding: 5px;
+  border: none;
+  width: 140px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: white;
+  background-color: rgb(78, 78, 78);
+}
+.details{
+  font-size: x-small;
+}
+.time{
+  align-self: flex-end;
+}
+
+.button:hover{
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+}
